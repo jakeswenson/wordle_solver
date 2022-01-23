@@ -1,0 +1,15 @@
+[package]
+name = "wordle_solve"
+version = "0.0.0"
+author = ["Jake Swenson <jake@jakeswenson.com>"]
+license = "MIT"
+description = "A Wordle solver"
+keywords = ["cli", "game", "wordle"]
+categories = ["games"]
+
+edition = "2021"
+
+[dependencies]
+linfa = "0.5.0"
+linfa-trees = "0.5.0"
+ndarray = { version = "0.15", default-features = false }
